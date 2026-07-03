@@ -1,0 +1,9 @@
+# Toolchain manager: https://github.com/rojo-rbx/rokit
+# Sul tuo computer: installa Rokit, poi esegui `rokit install` in questa cartella.
+# Le versioni sono bloccate qui così tutta la squadra (e Claude) usa le stesse.
+
+[tools]
+rojo = "rojo-rbx/rojo@7.6.1"
+wally = "UpliftGames/wally@0.3.2"
+selene = "Kampfkarren/selene@0.29.0"
+stylua = "JohnnyMorganz/StyLua@2.3.0"

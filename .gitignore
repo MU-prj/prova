@@ -569,3 +569,23 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,latex,venv
+
+### Roblox ###
+# Artefatti di build (rigenerabili con `make build`)
+/build/
+sourcemap.json
+
+# Place file e lock di Studio
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Pacchetti Wally (rigenerabili con `wally install`)
+/Packages/
+/ServerPackages/
+/DevPackages/
+
+# Fallback npm
+node_modules/
+package-lock.json

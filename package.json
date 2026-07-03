@@ -1,0 +1,14 @@
+{
+  "name": "prova-roblox",
+  "private": true,
+  "description": "Fallback npm per ambienti senza Rokit (CI, container): fornisce rojo e stylua.",
+  "devDependencies": {
+    "rojo": "1.0.3-rojo7.6.1",
+    "@johnnymorganz/stylua-bin": "^2.3.0"
+  },
+  "scripts": {
+    "build": "rojo build -o build/Prova.rbxlx",
+    "serve": "rojo serve",
+    "fmt": "stylua src"
+  }
+}

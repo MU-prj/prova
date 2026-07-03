@@ -1,0 +1,4 @@
+# Linter: https://kampfkarren.github.io/selene/
+# `std = "roblox"` scarica automaticamente le definizioni delle API Roblox
+# alla prima esecuzione (serve la rete la prima volta).
+std = "roblox"
