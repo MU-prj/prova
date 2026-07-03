@@ -39,7 +39,7 @@ che possa funzionare su Roblox, sul modello di MECCHA CHAMELEON.
 Tendenza chiara: vincono i giochi **sociali, a round brevi, clippabili**,
 dove la creatività del giocatore genera il contenuto.
 
-## Proposta principale: «MANNEQUIN PANIC» (titolo di lavoro)
+## Proposta principale: «MANICHINI PAZZI» (ex Mannequin Panic)
 
 **Dress to Impress × Nascondino.**
 
@@ -83,7 +83,7 @@ dove la creatività del giocatore genera il contenuto.
   ma il "disegno che diventa geometria" è tecnicamente il pezzo più
   rischioso: non adatto al primo giorno.
 
-**Raccomandazione: MANNEQUIN PANIC.** Massimo rapporto tra potenziale
+**Raccomandazione: MANICHINI PAZZI.** Massimo rapporto tra potenziale
 virale e fattibilità: è un nascondino a round (facile) + avatar dressing
 (API native di Roblox: `HumanoidDescription`) + votazione (una GUI).
 
@@ -97,7 +97,7 @@ divertente quanto la vittoria (le clip nascono lì).
    visto l'assassino per 3 secondi e deve disegnarlo; gli altri arrestano
    qualcuno nella folla basandosi sul disegno. Due clip a round: il
    disegno orrendo e l'arresto sbagliato. Fattibilità alta (canvas 2D in
-   GUI + folla NPC + round system). Pari merito con Mannequin Panic.
+   GUI + folla NPC + round system). Pari merito con Manichini Pazzi.
 2. **«PET IMPOSTOR»** — Adopt Me × prop hunt. Travestito da pet in un
    parco di pet NPC; il padrone grida comandi (seduto!, rotola!) e chi
    sbaglia animazione si tradisce. Fattibilità alta.

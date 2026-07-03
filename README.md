@@ -17,13 +17,16 @@ zero cosa installare e come funziona tutto.
 
 ## Il gioco
 
-Un mash-up in stile MECCHA CHAMELEON: **Dress to Impress × nascondino**,
-titolo di lavoro *MANNEQUIN PANIC*. Ricerca, proposta e piano di lavoro in
-**[docs/CONCEPT.md](docs/CONCEPT.md)**.
+**MANICHINI PAZZI** — un mash-up in stile MECCHA CHAMELEON:
+**Dress to Impress × nascondino**. I nascosti si vestono e si congelano
+in posa tra manichini NPC identici a loro; il cercatore ha accuse
+limitate; chi sopravvive viene votato per stile. Ricerca e proposta in
+**[docs/CONCEPT.md](docs/CONCEPT.md)**, piano di lavoro in
+**[docs/plans/manichini-pazzi.md](docs/plans/manichini-pazzi.md)**.
 
-In `src/` c'è già lo skeleton funzionante del ciclo di gioco (lobby →
-nascondiglio → caccia → risultati): compila, sincronizza e gira in Studio
-con 2+ giocatori di test.
+In `src/` c'è il prototipo giocabile: mappa generata da codice, round
+completo (lobby → nascondiglio → caccia → risultati), guardaroba,
+accuse e voto di stile. Gira in Studio con 2+ giocatori di test.
 
 ## Struttura
 
