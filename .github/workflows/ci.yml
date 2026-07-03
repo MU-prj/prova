@@ -19,7 +19,9 @@ jobs:
       - name: Formattazione (StyLua)
         run: npx stylua --check src
       - name: Build del place file (Rojo)
-        run: npx rojo build default.project.json -o build/Prova.rbxlx
+        run: |
+          mkdir -p build
+          npx rojo build default.project.json -o build/Prova.rbxlx
       - name: Pubblica il place file come artifact
         uses: actions/upload-artifact@v4
         with:
