@@ -1,0 +1,10 @@
+[package]
+name = "frigobar/prova"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+# Le dipendenze si aggiungono qui e si installano con `wally install`.
+# Esempio:
+# [dependencies]
+# Promise = "evaera/promise@4.0.0"
