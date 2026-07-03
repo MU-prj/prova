@@ -87,6 +87,33 @@ dove la creatività del giocatore genera il contenuto.
 virale e fattibilità: è un nascondino a round (facile) + avatar dressing
 (API native di Roblox: `HumanoidDescription`) + votazione (una GUI).
 
+## Altre candidate (seconda passata)
+
+In ordine di preferenza. La ricetta comune: meccanica spiegabile in una
+frase × espressione creativa, round da 3–5 minuti, e il fallimento è
+divertente quanto la vittoria (le clip nascono lì).
+
+1. **«IDENTIKIT»** — Gartic Phone × Murder Mystery 2. Il testimone ha
+   visto l'assassino per 3 secondi e deve disegnarlo; gli altri arrestano
+   qualcuno nella folla basandosi sul disegno. Due clip a round: il
+   disegno orrendo e l'arresto sbagliato. Fattibilità alta (canvas 2D in
+   GUI + folla NPC + round system). Pari merito con Mannequin Panic.
+2. **«PET IMPOSTOR»** — Adopt Me × prop hunt. Travestito da pet in un
+   parco di pet NPC; il padrone grida comandi (seduto!, rotola!) e chi
+   sbaglia animazione si tradisce. Fattibilità alta.
+3. **«MARCO! POLO!»** — Marco Polo × Doors. Cercatore quasi cieco; a ogni
+   "Marco!" i nascosti emettono un "Polo!" in audio 3D posizionale.
+   Tensione horror senza violenza. Fattibilità media-alta.
+4. **«CLIMB A BEANSTALK»** — Grow a Garden × obby. La pianta comune del
+   server cresce con le cure di tutti e l'obby È la pianta: più cresce,
+   più si sale. Fattibilità media (generazione della pianta).
+5. **«SFILATA MORTALE»** — Dress to Impress × Squid Game. Passerella con
+   trappole; l'outfit dà i perk (tacchi veloci ma fragili, mantello che
+   plana). Stile E sopravvivenza. Fattibilità media.
+
+Scartato il filone "Steal a X": già saturo di cloni, come il clone
+diretto di MECCHA.
+
 ## Cosa si fa in un giorno di Claude Fable
 
 Con l'ambiente di questo repo già pronto, in una giornata di lavoro
