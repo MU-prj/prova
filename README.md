@@ -24,6 +24,16 @@ tool da installare sul tuo computer. Funziona `make build`, `make check` e
 per giocare/testare): con `make serve` attivo, collega il plugin Rojo di
 Studio a `localhost:34872`.
 
+In alternativa a VS Code, con Docker puro (c'è un `Dockerfile`):
+
+```bash
+docker build -t prova-dev .
+docker run --rm -v "$PWD":/work -w /work prova-dev make build
+# serve per Studio:
+docker run --rm -it -p 34872:34872 -v "$PWD":/work -w /work prova-dev \
+    rojo serve default.project.json --address 0.0.0.0
+```
+
 ## Il gioco
 
 **MANICHINI PAZZI** — un mash-up in stile MECCHA CHAMELEON:
