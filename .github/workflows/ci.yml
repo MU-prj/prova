@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    name: Formattazione e build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Formattazione (StyLua)
+        run: npx stylua --check src
+      - name: Build del place file (Rojo)
+        run: |
+          mkdir -p build
+          npx rojo build default.project.json -o build/Prova.rbxlx
+      - name: Pubblica il place file come artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: place-file
+          path: build/Prova.rbxlx
+
+  lint:
+    name: Lint (selene)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scarica selene
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download 0.29.0 --repo Kampfkarren/selene --pattern '*linux*.zip'
+          unzip -o "$(ls selene-[0-9]*linux*.zip | head -1)"
+          chmod +x selene
+      - name: Analisi statica
+        run: ./selene src

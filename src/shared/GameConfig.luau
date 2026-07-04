@@ -9,6 +9,12 @@ export type Config = {
 	DurataNascondiglio: number,
 	DurataCaccia: number,
 	DurataRisultati: number,
+	NumManichiniNpc: number,
+	AccuseExtra: number,
+	RaggioAccusa: number,
+	PuntiCattura: number,
+	PuntiSopravvivenza: number,
+	PuntiVotoStile: number,
 }
 
 local GameConfig: Config = {
@@ -17,9 +23,23 @@ local GameConfig: Config = {
 
 	-- Durate delle fasi, in secondi.
 	DurataLobby = 15,
-	DurataNascondiglio = 30,
+	DurataNascondiglio = 40,
 	DurataCaccia = 120,
-	DurataRisultati = 10,
+	DurataRisultati = 25,
+
+	-- Manichini NPC spawnati nell'arena, tra cui i nascosti si mimetizzano.
+	NumManichiniNpc = 15,
+
+	-- Il cercatore ha (numero di nascosti + AccuseExtra) accuse.
+	AccuseExtra = 2,
+
+	-- Distanza massima in studs per accusare un manichino.
+	RaggioAccusa = 30,
+
+	-- Punteggi.
+	PuntiCattura = 10, -- al cercatore, per ogni nascosto catturato
+	PuntiSopravvivenza = 15, -- a ogni nascosto vivo a fine round
+	PuntiVotoStile = 20, -- al sopravvissuto più votato per stile
 }
 
 return GameConfig
