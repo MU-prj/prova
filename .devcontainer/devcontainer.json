@@ -1,0 +1,19 @@
+{
+  "name": "prova-roblox",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "forwardPorts": [34872],
+  "portsAttributes": {
+    "34872": { "label": "Rojo serve", "onAutoForward": "silent" }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "evaera.vscode-rojo",
+        "JohnnyMorganz.stylua",
+        "JohnnyMorganz.luau-lsp",
+        "Kampfkarren.selene"
+      ]
+    }
+  }
+}

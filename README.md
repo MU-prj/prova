@@ -15,6 +15,15 @@ make help       # tutti i comandi
 Mai programmato? Parti da **[docs/SETUP.md](docs/SETUP.md)**: spiega da
 zero cosa installare e come funziona tutto.
 
+### Senza installare niente sul PC (container)
+
+C'è un **Dev Container**: apri il repo in VS Code (*Reopen in Container*) o
+in GitHub Codespaces e trovi già `rojo`, `stylua` e `selene` pronti — nessun
+tool da installare sul tuo computer. Funziona `make build`, `make check` e
+`make serve`. L'unica cosa che resta sul PC è **Roblox Studio** (serve solo
+per giocare/testare): con `make serve` attivo, collega il plugin Rojo di
+Studio a `localhost:34872`.
+
 ## Il gioco
 
 **MANICHINI PAZZI** — un mash-up in stile MECCHA CHAMELEON:
